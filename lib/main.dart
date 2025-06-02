@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
-import 'Home.dart';
+import 'package:minhas_viagens/SplashScreen.dart';
 
 void main() => runApp(const MaterialApp(
       title: "Minhas viagens",
-      home: Home(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     ));
