@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Mapas.dart';
+
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -10,6 +12,17 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   List _listaViagens = ["Local 1", "Local 2", "Local 3"];
 
+  _abrirMapa() {}
+
+  _excluirViagem() {}
+
+  _adicionarLocal() {
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => Mapas()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,6 +30,12 @@ class _HomeState extends State<Home> {
         title: const Text("Viagens", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.blue,
       ),
+      floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          backgroundColor: Colors.blue,
+          onPressed: () {
+            _adicionarLocal();
+          }),
       body: Column(children: <Widget>[
         Expanded(
             child: ListView.builder(
@@ -24,7 +43,9 @@ class _HomeState extends State<Home> {
                 itemBuilder: (context, index) {
                   String titulo = _listaViagens[index];
                   return GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      _abrirMapa();
+                    },
                     child: Card(
                         child: ListTile(
                       title: Text(titulo),
@@ -32,7 +53,9 @@ class _HomeState extends State<Home> {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                _excluirViagem();
+                              },
                               child: const Padding(
                                 padding: EdgeInsets.all(8),
                                 child: Icon(
