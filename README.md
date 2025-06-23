@@ -1,19 +1,26 @@
+
 # Minhas viagens
 
-A new Flutter project created with FlutLab - https://flutlab.io
+App Minhas Viagens criado com a linguagem Dart, usando os conceitos básicos de integração. Desenvolvido com Flutter, tem a funcionalidade de escolher um local no mapa e salvar a localização escolhida.
 
-## Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+## Stack utilizada
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+Foi utilizado o Flutter como o framework (https://docs.flutter.dev/) e para o desenvolvimento back-end foi utilizado o Dart (https://dart.dev/)
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
-## Getting Started: FlutLab - Flutter Online IDE
+## Prévia
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+![Demonstração lugares](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/lugares_salvos.jpeg?raw=true)
+
+![Demonstração mapa](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/selecionar_local.jpeg?raw=true)
+
+![Demonstração local](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/confirmar_local.jpeg?raw=true)
+
+## Rodando web
+
+Copie e cole o link em um navegador, faça o login e rode o projeto
+
+```bash
+  https://flutlab.io/editor/1539650c-b16e-4aba-bd3c-8c5de89fa6a2
+```
