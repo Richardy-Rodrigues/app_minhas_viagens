@@ -11,11 +11,11 @@ Foi utilizado o Flutter como o framework (https://docs.flutter.dev/) e para o de
 
 ## Prévia
 
-![Demonstração lugares](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/lugares_salvos.jpeg?raw=true)
+![Demonstração lugares](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/master/src/assets/lugares_salvos.jpeg?raw=true)
 
-![Demonstração mapa](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/selecionar_local.jpeg?raw=true)
+![Demonstração mapa](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/master/src/assets/selecionar_local.jpeg?raw=true)
 
-![Demonstração local](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/main/src/assets/confirmar_local.jpeg?raw=true)
+![Demonstração local](https://github.com/Richardy-Rodrigues/app_minhas_viagens/blob/master/src/assets/confirmar_local.jpeg?raw=true)
 
 ## Rodando web
 
